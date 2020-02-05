@@ -32,7 +32,7 @@ class BlackJackTest extends FlatSpec with Matchers{
     ???
   }
 
-  it should "player should win if player gets blackjack" in {
+  it should "let player win if player gets blackjack" in {
     val blackJack = new BlackJack()
     val deck = new Deck
     deck.cards.clear()
