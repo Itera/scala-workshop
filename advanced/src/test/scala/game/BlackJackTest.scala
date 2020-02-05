@@ -24,19 +24,23 @@ class BlackJackTest extends FlatSpec with Matchers{
     val blackJack = new BlackJack()
     val deck = new Deck
     deck.cards.clear()
-    //deck.cards += Card(...)
-    //deck.cards += Card(...)
+    //deck.cards += Card(Heart, King)
+    //deck.cards += Card(Spade, Ace)
+    //deck.cards += Card(Heart, Two)
+    //deck.cards += Card(Spade, Four)
     //blackJack.dealCards(new Deck) should equal (Card(...), Card(...))
     ???
   }
 
-  it should "playHand should return zero credit if player loose " in {
+  it should "player should win if player gets blackjack" in {
     val blackJack = new BlackJack()
     val deck = new Deck
     deck.cards.clear()
-    //deck.cards += Card(...)
-    //deck.cards += Card(...)
-    //blackJack.playHand(100)(_ => deck) should equal (0, Card(...), Card(...))
+    //deck.cards += Card(Heart, King)
+    //deck.cards += Card(Spade, Ace)
+    //deck.cards += Card(Heart, Two)
+    //deck.cards += Card(Spade, Four)
+    //val (result, playHand, dealHand) = blackJack.playHand(100, deck)
     ???
   }
 }

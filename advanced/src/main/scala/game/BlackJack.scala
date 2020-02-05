@@ -182,8 +182,7 @@ class BlackJack (var userCredit: Int = 100) {
    */
   def playHand(credit: Int, deck: Deck): (Int, Hand, Hand)= {
     log(s"Bet for the current hand: ( $credit )$newLine$newLine")
-    val cardDeck = new Deck
-    val (playerHand: Hand, dealerHand: Hand) = dealCards(cardDeck)
+    val (playerHand: Hand, dealerHand: Hand) = dealCards(deck)
     var result = credit
     // After the cards are dealt, a hand with 21 wins
     // If there is a tie, the dealer wins
