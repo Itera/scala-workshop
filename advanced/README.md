@@ -2,7 +2,7 @@
 
 ## Goal
 
-Complete the black game by implementing the methods and adding unit tests.
+Complete the blackjack game by implementing the methods and adding unit tests.
 
 ## Extra
 
